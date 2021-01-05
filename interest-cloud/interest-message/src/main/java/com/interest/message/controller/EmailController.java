@@ -1,8 +1,8 @@
 package com.interest.message.controller;
 
-import com.interest.common.model.PageResult;
-import com.interest.common.model.ResponseWrapper;
-import com.interest.common.utils.SecurityAuthenUtil;
+import com.interest.message.commom.model.PageResult;
+import com.interest.message.commom.model.ResponseWrapper;
+import com.interest.message.commom.utils.SecurityAuthenUtil;
 import com.interest.message.model.entity.EmailEntity;
 import com.interest.message.model.response.EmailVO;
 import com.interest.message.service.EmailService;

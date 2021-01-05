@@ -3,8 +3,8 @@ package com.interest.blog.dao;
 import com.interest.blog.model.entity.ArticleCommentEntity;
 import com.interest.blog.model.response.ArticleCommentVO;
 import com.interest.blog.model.response.ArticleReplyCommentVO;
-import com.interest.common.model.PageWrapper;
-import com.interest.common.model.response.MsgContentVO;
+import com.interest.blog.commom.model.PageWrapper;
+import com.interest.blog.commom.model.response.MsgContentVO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

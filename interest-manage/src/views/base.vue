@@ -88,9 +88,10 @@
             <Col span="4" class="layout-menu-left">
                 <div class="layout-logo-left">
                   <div>
-                    <a href="https://www.lovemtt.com" target="_blank">
+                    <!-- <a href="https://www.lovemtt.com" target="_blank">
                         <img src="../images/logo.jpg" style="width: 50px;height: 50px;" align="absmiddle" />
-                    </a>
+                    </a> -->
+                    <img src="../images/logo.jpg" style="width: 50px;height: 50px;" align="absmiddle" />
                       <strong>控制台</strong>
                   </div>
                 </div>

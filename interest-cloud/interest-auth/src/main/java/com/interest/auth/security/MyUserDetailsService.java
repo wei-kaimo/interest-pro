@@ -1,9 +1,9 @@
 package com.interest.auth.security;
 
+import com.interest.auth.commom.utils.MyStringUtil;
 import com.interest.auth.model.entity.UserEntity;
 import com.interest.auth.service.RoleService;
 import com.interest.auth.service.UserService;
-import com.interest.common.utils.MyStringUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 

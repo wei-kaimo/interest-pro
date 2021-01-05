@@ -1,6 +1,6 @@
 package com.interest.blog.picture;
 
-import com.interest.common.model.ResponseWrapper;
+import com.interest.blog.commom.model.ResponseWrapper;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;

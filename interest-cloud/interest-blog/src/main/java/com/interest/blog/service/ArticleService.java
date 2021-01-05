@@ -4,8 +4,8 @@ import com.interest.blog.model.request.ArticleCreateRequest;
 import com.interest.blog.model.request.ArticleUpdateRequest;
 import com.interest.blog.model.response.ArticleDetailVO;
 import com.interest.blog.model.response.ArticleVO;
-import com.interest.common.model.PageResult;
-import com.interest.common.model.PageWrapper;
+import com.interest.blog.commom.model.PageResult;
+import com.interest.blog.commom.model.PageWrapper;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
 package com.interest.user.controller;
 
-import com.interest.common.model.PageResult;
-import com.interest.common.model.ResponseWrapper;
-import com.interest.common.utils.SecurityAuthenUtil;
+import com.interest.user.commom.model.PageResult;
+import com.interest.user.commom.model.ResponseWrapper;
+import com.interest.user.commom.utils.SecurityAuthenUtil;
 import com.interest.user.model.entity.MenuEntity;
 import com.interest.user.model.request.MenuRequest;
 import com.interest.user.model.response.MenuIdNameVO;

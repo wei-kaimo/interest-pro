@@ -2,10 +2,10 @@ package com.interest.blog.controller;
 
 import com.interest.blog.model.request.ArticleCommentRequest;
 import com.interest.blog.service.ArticleCommentService;
-import com.interest.common.model.PageResult;
-import com.interest.common.model.PageWrapper;
-import com.interest.common.model.ResponseWrapper;
-import com.interest.common.model.response.MsgContentVO;
+import com.interest.blog.commom.model.PageResult;
+import com.interest.blog.commom.model.PageWrapper;
+import com.interest.blog.commom.model.ResponseWrapper;
+import com.interest.blog.commom.model.response.MsgContentVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

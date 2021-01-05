@@ -41,7 +41,7 @@
     </resultMap>
 
     <resultMap id="msgContentVO"
-               type="com.interest.common.model.response.MsgContentVO">
+               type="com.interest.blog.commom.model.response.MsgContentVO">
         <id column="id" property="id" />
         <result column="title" property="title" />
         <result column="replyContent" property="replyContent" />

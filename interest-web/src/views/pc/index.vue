@@ -160,11 +160,10 @@
                 <router-view></router-view>
             </Content>
             <Footer class="layout-footer-center">
-                <div>
-                    <a href="https://github.com/smallsnail-wh" target="_blank">
-                        <Icon style="color: rebeccapurple;" size="40" type="logo-github"></Icon>
-                    </a>
-                </div>
+                <!-- <a href="https://github.com/smallsnail-wh" target="_blank">
+                        <Icon  style="color: rebeccapurple;" size="40" type="logo-github"></Icon>
+                    </a> -->
+                    <Icon  style="color: rebeccapurple;" size="40" type="logo-github"></Icon>
                 <p>2018-2020 &copy; smallsail-wh</p>
             </Footer>
         </Layout>

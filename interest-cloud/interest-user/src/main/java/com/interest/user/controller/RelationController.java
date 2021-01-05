@@ -1,6 +1,6 @@
 package com.interest.user.controller;
 
-import com.interest.common.model.ResponseWrapper;
+import com.interest.user.commom.model.ResponseWrapper;
 import com.interest.user.model.entity.RelationEntity;
 import com.interest.user.service.RelationService;
 import io.swagger.annotations.ApiOperation;

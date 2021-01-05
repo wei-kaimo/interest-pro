@@ -1,6 +1,6 @@
 package com.interest.message.service.impl;
 
-import com.interest.common.utils.DateUtil;
+import com.interest.message.commom.utils.DateUtil;
 import com.interest.message.dao.EmailDao;
 import com.interest.message.model.entity.EmailEntity;
 import com.interest.message.model.response.EmailVO;

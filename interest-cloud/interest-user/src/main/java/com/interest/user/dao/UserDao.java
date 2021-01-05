@@ -1,6 +1,6 @@
 package com.interest.user.dao;
 
-import com.interest.common.model.response.UserHeadInfoVO;
+import com.interest.user.commom.model.response.UserHeadInfoVO;
 import com.interest.user.model.entity.UserEntity;
 import com.interest.user.model.response.UserBaseInfoVO;
 import com.interest.user.model.response.UserInfoVO;

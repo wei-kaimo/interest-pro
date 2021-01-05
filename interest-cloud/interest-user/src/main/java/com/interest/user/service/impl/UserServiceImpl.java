@@ -1,8 +1,8 @@
 package com.interest.user.service.impl;
 
-import com.interest.common.feign.InterestBlogFeign;
-import com.interest.common.model.response.UserHeadInfoVO;
-import com.interest.common.utils.DateUtil;
+import com.interest.user.commom.feign.InterestBlogFeign;
+import com.interest.user.commom.model.response.UserHeadInfoVO;
+import com.interest.user.commom.utils.DateUtil;
 import com.interest.user.dao.UserDao;
 import com.interest.user.model.entity.UserDetailEntity;
 import com.interest.user.model.entity.UserEntity;

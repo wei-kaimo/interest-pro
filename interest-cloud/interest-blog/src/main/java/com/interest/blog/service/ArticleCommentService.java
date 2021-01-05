@@ -1,9 +1,9 @@
 package com.interest.blog.service;
 
 import com.interest.blog.model.request.ArticleCommentRequest;
-import com.interest.common.model.PageResult;
-import com.interest.common.model.PageWrapper;
-import com.interest.common.model.response.MsgContentVO;
+import com.interest.blog.commom.model.PageResult;
+import com.interest.blog.commom.model.PageWrapper;
+import com.interest.blog.commom.model.response.MsgContentVO;
 
 import java.util.List;
 import java.util.Set;

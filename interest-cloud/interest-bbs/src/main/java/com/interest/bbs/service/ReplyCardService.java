@@ -2,7 +2,7 @@ package com.interest.bbs.service;
 
 import com.interest.bbs.model.request.ReplyCardRequest;
 import com.interest.bbs.model.response.ReplyCardVO;
-import com.interest.common.model.response.MsgContentVO;
+import com.interest.bbs.commom.model.response.MsgContentVO;
 
 import java.util.List;
 import java.util.Set;

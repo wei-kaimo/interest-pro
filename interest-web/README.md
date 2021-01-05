@@ -4,13 +4,7 @@ bbs网站+blog网站前端
 
 项目介绍
 --
-vue.js+node.js+webpack构建的前端项目，后端用的是项目[interest-cloud](https://github.com/smallsnail-wh/interest-pro/tree/master/interest-cloud)（前后端分离）。
-
-项目展示
---
-地址：http://www.lovemtt.com/ 
-可使用github/qq登录
-（第一次打开可能会有点慢）
+vue.js+node.js+webpack构建的前端项目，后端用的是项目[interest-cloud]（前后端分离）。
 
 项目主要目录结构
 --
@@ -90,7 +84,6 @@ UI 组件库：
 打包发布
 --
 1. 运行npm run build后，得到 dist文件。
-2. 使用nginx发布。（[nginx配置参考文件](https://github.com/smallsnail-wh/interest/blob/master/nginx.conf)）
 	
 Http状态码
 --

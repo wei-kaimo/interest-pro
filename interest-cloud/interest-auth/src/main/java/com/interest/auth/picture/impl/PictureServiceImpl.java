@@ -2,8 +2,8 @@ package com.interest.auth.picture.impl;
 
 import com.interest.auth.picture.PictureService;
 import com.interest.auth.properties.PathsProperties;
-import com.interest.common.utils.DateUtil;
-import com.interest.common.utils.ImageUtil;
+import com.interest.auth.commom.utils.DateUtil;
+import com.interest.auth.commom.utils.ImageUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

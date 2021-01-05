@@ -74,7 +74,7 @@ interest:
     image: interest/file/image
 #    image: 你需要存储图片的目录，如上
     domain-name: http://127.0.0.1:8081
-#   domain-name: https://www.lovemtt.com
+#   domain-name: https://www.wkm1115.cn
 #   domain-name: 你的域名或者（ip+端口），如上
   github:
     client-id: 你在github中注册的client id

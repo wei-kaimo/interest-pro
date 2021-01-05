@@ -1,7 +1,7 @@
 package com.interest.user.controller;
 
-import com.interest.common.model.PageResult;
-import com.interest.common.model.ResponseWrapper;
+import com.interest.user.commom.model.PageResult;
+import com.interest.user.commom.model.ResponseWrapper;
 import com.interest.user.model.entity.RoleEntity;
 import com.interest.user.model.response.RoleVO;
 import com.interest.user.service.RoleService;

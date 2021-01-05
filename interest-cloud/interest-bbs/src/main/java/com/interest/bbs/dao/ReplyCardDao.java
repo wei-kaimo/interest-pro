@@ -2,7 +2,7 @@ package com.interest.bbs.dao;
 
 import com.interest.bbs.model.entity.ReplyCardEntity;
 import com.interest.bbs.model.response.ReplyCardVO;
-import com.interest.common.model.response.MsgContentVO;
+import com.interest.bbs.commom.model.response.MsgContentVO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

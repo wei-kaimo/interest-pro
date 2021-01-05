@@ -1,7 +1,7 @@
 package com.interest.bbs;
 
 import com.interest.bbs.model.response.PostCardVO;
-import com.interest.common.model.response.UserHeadInfoVO;
+import com.interest.bbs.commom.model.response.UserHeadInfoVO;
 import org.springframework.beans.BeanUtils;
 
 public class Test {

@@ -1,9 +1,9 @@
 package com.interest.user.controller;
 
-import com.interest.common.model.PageResult;
-import com.interest.common.model.ResponseWrapper;
-import com.interest.common.model.response.UserHeadInfoVO;
-import com.interest.common.utils.SecurityAuthenUtil;
+import com.interest.user.commom.model.PageResult;
+import com.interest.user.commom.model.ResponseWrapper;
+import com.interest.user.commom.model.response.UserHeadInfoVO;
+import com.interest.user.commom.utils.SecurityAuthenUtil;
 import com.interest.user.model.request.SystemUserRequest;
 import com.interest.user.model.request.UserInfoRequest;
 import com.interest.user.model.response.UserBaseInfoVO;

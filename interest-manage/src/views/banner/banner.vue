@@ -233,12 +233,14 @@ export default {
                 pageInfo: this.pageInfo
               });
               this.groupId = [];
-              this.$Message.info("删除成功");
+              this.$Message.info("添加成功");
             }.bind(this)
           )
           .catch(function(error) {
             alert(error);
           });
+      }else{
+        this.$Message.info("请先勾选");
       }
     },
     delBanner() {

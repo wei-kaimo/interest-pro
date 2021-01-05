@@ -1,7 +1,7 @@
 package com.interest.message.service;
 
-import com.interest.common.model.PageResult;
-import com.interest.common.model.Request.MsgRecodeRequest;
+import com.interest.message.commom.model.PageResult;
+import com.interest.message.commom.model.Request.MsgRecodeRequest;
 
 public interface MsgRecordsService {
 

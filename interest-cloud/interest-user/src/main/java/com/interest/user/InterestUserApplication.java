@@ -8,8 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@ComponentScan(basePackages = {"com.interest.user","com.interest.common"})
-@EnableFeignClients(basePackages = "com.interest.common.feign")
+@EnableFeignClients(basePackages = "com.interest.user.commom.feign")
 public class InterestUserApplication {
 
     public static void main(String[] args) {

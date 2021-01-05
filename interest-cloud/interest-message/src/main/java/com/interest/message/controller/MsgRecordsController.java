@@ -1,9 +1,9 @@
 package com.interest.message.controller;
 
-import com.interest.common.model.PageResult;
-import com.interest.common.model.Request.MsgRecodeRequest;
-import com.interest.common.model.ResponseWrapper;
-import com.interest.common.utils.SecurityAuthenUtil;
+import com.interest.message.commom.model.PageResult;
+import com.interest.message.commom.model.Request.MsgRecodeRequest;
+import com.interest.message.commom.model.ResponseWrapper;
+import com.interest.message.commom.utils.SecurityAuthenUtil;
 import com.interest.message.service.MsgRecordsService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

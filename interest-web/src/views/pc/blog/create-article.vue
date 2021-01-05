@@ -32,7 +32,8 @@
             <span>温馨提示</span>
         </p>
         <div style="text-align:center">
-            <p>为保证服务正常运行，每个用户每日只能发布一篇文章，是否确认发布？</p>
+            <!-- <p>为保证服务正常运行，每个用户每日只能发布一篇文章，是否确认发布？</p> -->
+            <p>需要在检查一下吗？是否确认发布？</p>
         </div>
         <div slot="footer">
             <Button type="error" size="large" long :loading="modal_loading" @click="publish()">确认</Button>

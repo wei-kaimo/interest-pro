@@ -1,13 +1,13 @@
 package com.interest.message.service.impl;
 
-import com.interest.common.feign.InterestBbsFeign;
-import com.interest.common.feign.InterestBlogFeign;
-import com.interest.common.feign.InterestUserFeign;
-import com.interest.common.model.PageResult;
-import com.interest.common.model.Request.MsgRecodeRequest;
-import com.interest.common.model.response.MsgContentVO;
-import com.interest.common.model.response.UserHeadInfoVO;
-import com.interest.common.utils.SecurityAuthenUtil;
+import com.interest.message.commom.feign.InterestBbsFeign;
+import com.interest.message.commom.feign.InterestBlogFeign;
+import com.interest.message.commom.feign.InterestUserFeign;
+import com.interest.message.commom.model.PageResult;
+import com.interest.message.commom.model.Request.MsgRecodeRequest;
+import com.interest.message.commom.model.response.MsgContentVO;
+import com.interest.message.commom.model.response.UserHeadInfoVO;
+import com.interest.message.commom.utils.SecurityAuthenUtil;
 import com.interest.message.dao.MsgRecordsDao;
 import com.interest.message.model.entity.MsgRecordEntity;
 import com.interest.message.model.response.MsgRecordVO;

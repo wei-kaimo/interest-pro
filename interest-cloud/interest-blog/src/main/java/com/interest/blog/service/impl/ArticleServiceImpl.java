@@ -8,13 +8,13 @@ import com.interest.blog.model.request.ArticleUpdateRequest;
 import com.interest.blog.model.response.ArticleDetailVO;
 import com.interest.blog.model.response.ArticleVO;
 import com.interest.blog.service.ArticleService;
-import com.interest.common.enums.ResponseStatus;
-import com.interest.common.feign.InterestUserFeign;
-import com.interest.common.model.PageResult;
-import com.interest.common.model.PageWrapper;
-import com.interest.common.model.response.UserHeadInfoVO;
-import com.interest.common.utils.DateUtil;
-import com.interest.common.utils.SecurityAuthenUtil;
+import com.interest.blog.commom.enums.ResponseStatus;
+import com.interest.blog.commom.feign.InterestUserFeign;
+import com.interest.blog.commom.model.PageResult;
+import com.interest.blog.commom.model.PageWrapper;
+import com.interest.blog.commom.model.response.UserHeadInfoVO;
+import com.interest.blog.commom.utils.DateUtil;
+import com.interest.blog.commom.utils.SecurityAuthenUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -82,10 +82,11 @@ public class ArticleServiceImpl implements ArticleService {
     public void createArticle(ArticleCreateRequest articleCreateRequest) {
         int userId = SecurityAuthenUtil.getId();
 
-        Boolean articleSign = stringRedisTemplate.hasKey("article_" + userId);
+        //每日发布一个文章注释
+        /*Boolean articleSign = stringRedisTemplate.hasKey("article_" + userId);
         if (articleSign != null && articleSign) {
             throw new ArticleException(ResponseStatus.FAIL_6001.getValue(), ResponseStatus.FAIL_6001.getReasonPhrase());
-        }
+        }*/
 
         ArticleEntity articleEntity = new ArticleEntity();
         articleEntity.setTitle(articleCreateRequest.getTitle());
