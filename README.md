@@ -9,4 +9,4 @@ interest项目的微服务版
   3. 后台管理系统
 
 ## 项目架构图
-![Untitled Diagram](/Users/weikaimo/work/interest-pro/Untitled Diagram.png)
+![Untitled Diagram](https://raw.githubusercontent.com/wei-kaimo/interest-pro/master/Untitled%20Diagram.png)
